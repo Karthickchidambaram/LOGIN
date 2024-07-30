@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            flex: 1; /* This will make the content area expand to fill the remaining space */
+        }
+
+        .header {
+            color: #fff;
+            padding: 50px 0;
+            text-align: center;
+            /* Removed background color to make it transparent */
+            background: none; /* Remove any default background */
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .header p {
+            font-size: 1.2em;
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .features {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .features h2 {
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .feature-item {
+            margin: 20px 0;
+            color: #fff; /* Text color for feature items */
+        }
+
+        .feature-item h3 {
+            margin: 10px 0;
+            color: #fff; /* Text color for feature item titles */
+        }
+
+        .footer {
+            background-color: #2a2929;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        /* Ensure the background image covers the body */
+        body {
+            background: url('cld.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome! We Provide</h1>
+        <p>Simple, Effective, and Reliable Solutions</p>
+        <a href="login.html" class="cta">Learn More</a>
+    </header>
+
+    <div class="content">
+        <section id="features" class="features">
+            <div>
+                <h2>Features</h2>
+                <div class="feature-item">
+                    <h3>Advanced Cloud Solutions</h3>
+                </div>
+                <div class="feature-item">
+                    <h3>24/7 Technical Support</h3>
+                </div>
+                <div class="feature-item">
+                    <h3>Custom IT Solutions</h3>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; Data Mint</p>
+        <p>Email: karthick.b2k2020@gmail.com</p>
+        <p>Phone: +8870876770</p>
+    </footer>
+</body>
+</html>
